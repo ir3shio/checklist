@@ -44,8 +44,11 @@ mount‌ ‌-o‌ ‌rw,remount‌ ‌/
 ```
 3. Now‌ ‌open‌ ‌a‌ ‌new‌ ‌Tab ‌leaving‌ ‌the‌ ‌ADB‌ ‌bridge‌ ‌window‌ ‌open.‌ ‌ ‌
 4. Navigate‌ ‌to‌ ‌folder‌ ‌which‌ ‌contains‌ ‌the‌ ‌new‌ ‌cert‌ ‌with‌ ‌hashed‌ ‌name.‌ ‌
-5. In Terminal,Type Following Command:‌`adb‌ ‌push‌ ‌9a5ba575.0‌‌ /system/etc/security/cacerts`
-6. If‌ ‌all‌ ‌went‌ ‌well,‌ ‌you are good to go.Close‌ ‌down‌ ‌all the terminal.‌ ‌
+5. In Terminal,Type Following Command:‌
+```
+adb‌ ‌push‌ ‌9a5ba575.0‌‌ /system/etc/security/cacerts
+```
+8. If‌ ‌all‌ ‌went‌ ‌well,‌ ‌you are good to go.Close‌ ‌down‌ ‌all the terminal.‌ ‌
 ‌
 #‌# Permission Setup
 ```
