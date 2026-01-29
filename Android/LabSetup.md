@@ -45,4 +45,11 @@ _This‌ ‌step‌ ‌is‌ ‌to‌ ‌push‌ ‌the‌ ‌new‌ ‌certific
 4. In Terminal,Type Following Command:‌`adb‌ ‌push‌ ‌9a5ba575.0‌‌ /system/etc/security/cacerts`
 5. If‌ ‌all‌ ‌went‌ ‌well,‌ ‌you are good to go.Close‌ ‌down‌ ‌all the terminal.‌ ‌
 ‌
-‌
+#‌# Permission Setup
+```
+adb shell
+su
+setenforce 0
+setprop persist.sys.tango_zygote32.start 0
+setprop persist.device_config.runtime_native.usap_pool_enabled false
+```
