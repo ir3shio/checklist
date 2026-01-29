@@ -38,7 +38,6 @@ file.‌ ‌
 _This‌ ‌step‌ ‌is‌ ‌to‌ ‌push‌ ‌the‌ ‌new‌ ‌certificate‌ ‌into‌ ‌the‌ ‌system‌ ‌trusted‌ ‌CA‌ ‌store.‌_
 1. In Terminal,Type Following Commands:‌ ‌
 ```
-adb‌ ‌shell
 su
 mount -o rw,remount /
 ```
@@ -52,7 +51,6 @@ adb push 9a5ba575.0 /system/etc/security/cacerts
 ‌
 #‌# Permission Setup
 ```
-adb shell
 su
 setenforce 0
 setprop persist.sys.tango_zygote32.start 0
