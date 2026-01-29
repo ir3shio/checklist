@@ -37,13 +37,15 @@ file.‌ ‌
 ## ADB‌ ‌(Install‌ ‌Certificate):‌ ‌
 _This‌ ‌step‌ ‌is‌ ‌to‌ ‌push‌ ‌the‌ ‌new‌ ‌certificate‌ ‌into‌ ‌the‌ ‌system‌ ‌trusted‌ ‌CA‌ ‌store.‌_
 1. In Terminal,Type Following Commands:‌ ‌
-    - `adb‌ ‌shell` ‌
-    - `su`
-    - `mount‌ ‌-o‌ ‌rw,remount‌ ‌/` 
-2. Now‌ ‌open‌ ‌a‌ ‌new‌ ‌Tab ‌leaving‌ ‌the‌ ‌ADB‌ ‌bridge‌ ‌window‌ ‌open.‌ ‌ ‌
-3. Navigate‌ ‌to‌ ‌folder‌ ‌which‌ ‌contains‌ ‌the‌ ‌new‌ ‌cert‌ ‌with‌ ‌hashed‌ ‌name.‌ ‌
-4. In Terminal,Type Following Command:‌`adb‌ ‌push‌ ‌9a5ba575.0‌‌ /system/etc/security/cacerts`
-5. If‌ ‌all‌ ‌went‌ ‌well,‌ ‌you are good to go.Close‌ ‌down‌ ‌all the terminal.‌ ‌
+```
+adb‌ ‌shell
+su
+mount‌ ‌-o‌ ‌rw,remount‌ ‌/
+```
+3. Now‌ ‌open‌ ‌a‌ ‌new‌ ‌Tab ‌leaving‌ ‌the‌ ‌ADB‌ ‌bridge‌ ‌window‌ ‌open.‌ ‌ ‌
+4. Navigate‌ ‌to‌ ‌folder‌ ‌which‌ ‌contains‌ ‌the‌ ‌new‌ ‌cert‌ ‌with‌ ‌hashed‌ ‌name.‌ ‌
+5. In Terminal,Type Following Command:‌`adb‌ ‌push‌ ‌9a5ba575.0‌‌ /system/etc/security/cacerts`
+6. If‌ ‌all‌ ‌went‌ ‌well,‌ ‌you are good to go.Close‌ ‌down‌ ‌all the terminal.‌ ‌
 ‌
 #‌# Permission Setup
 ```
