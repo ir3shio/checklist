@@ -1,8 +1,6 @@
 Start Frida Server
 ```sh
-adb shell
-su
-./data/local/tmp/frida-server
+adb shell "su -c ./data/local/tmp/frida-server"
 ```
 
 List app ID 
